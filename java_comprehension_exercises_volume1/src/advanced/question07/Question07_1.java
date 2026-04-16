@@ -27,7 +27,6 @@ public class Question07_1 {
 			System.out.println(itemNames[j] + "の単価：＞");
 			String inputPrice = reader.readLine();
 			prices[j] = Integer.parseInt(inputPrice);
-
 		}
 		for (int k = 0; k < itemNames.length; k++) {
 
